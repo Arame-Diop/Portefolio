@@ -162,3 +162,14 @@ footer { text-align: center; padding: 2rem; color: var(--text-muted); font-size:
   transition: background 0.3s ease, transform 0.3s ease;
 }
 .btn:hover { transform: translateY(-3px); }
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--brown);
+  color: var(--brown-dark);
+  margin-left: 0.8rem;
+}
+.btn-outline:hover {
+  background: var(--brown);
+  color: var(--white);
+}
